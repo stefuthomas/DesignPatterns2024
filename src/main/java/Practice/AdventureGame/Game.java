@@ -1,4 +1,4 @@
-package AdventureGame;
+package Practice.AdventureGame;
 import java.util.Scanner;
 
 public abstract class Game {

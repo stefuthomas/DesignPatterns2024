@@ -1,4 +1,4 @@
-package Logistics;
+package Practice.Logistics;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Logistics;
+package Practice.Logistics;
 
 public class Truck implements Transport{
     @Override

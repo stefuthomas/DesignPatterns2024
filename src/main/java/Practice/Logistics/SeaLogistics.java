@@ -1,4 +1,4 @@
-package Logistics;
+package Practice.Logistics;
 
 public class SeaLogistics extends Logistics {
     @Override

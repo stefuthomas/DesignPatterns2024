@@ -1,4 +1,4 @@
-package AdventureGame;
+package Practice.AdventureGame;
 
 public class ScaryRoom implements Room {
     @Override

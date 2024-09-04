@@ -1,4 +1,4 @@
-package AdventureGame;
+package Practice.AdventureGame;
 
 public class SweetGame extends Game {
     @Override

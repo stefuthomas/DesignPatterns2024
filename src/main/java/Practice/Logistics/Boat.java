@@ -1,4 +1,4 @@
-package Logistics;
+package Practice.Logistics;
 
 public class Boat implements Transport{
     @Override
