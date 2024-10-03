@@ -30,7 +30,7 @@ public class QuizGame extends Game {
 
     public void fetchQuestions() {
         try {
-            URL apiUrl = new URL("https://opentdb.com/api.php?amount=50&category=9&difficulty=easy&type=multiple");
+            URL apiUrl = new URL("https://opentdb.com/api.php?amount=50&category=15&type=multiple");
             StringBuilder content = new StringBuilder();
             try (InputStream inputStream = apiUrl.openStream();
                  InputStreamReader inputStreamReader = new InputStreamReader(inputStream);

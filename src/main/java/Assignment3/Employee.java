@@ -28,7 +28,7 @@ public class Employee implements Component {
 
     @Override
     public void remove(Component component) {
-        throw new UnsupportedOperationException("Cannot remove from an employee.");
+        throw new UnsupportedOperationException("Cannot removeComponent from an employee.");
     }
     @Override
     public void printStructure() {
