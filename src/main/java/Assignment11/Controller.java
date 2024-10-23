@@ -1,5 +1,6 @@
 package Assignment11;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -52,6 +53,14 @@ public class Controller {
             model.restoreState(previousState);
             gui.updateGui();
         }
+    }
+
+    public void restoreState(IMemento memento) {
+        model.restoreState(memento);
+    }
+
+    public List<IMemento> getHistory() {
+        return history;
     }
 
     private void saveToHistory() {
