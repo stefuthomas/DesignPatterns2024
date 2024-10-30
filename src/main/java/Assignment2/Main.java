@@ -3,7 +3,7 @@ package Assignment2;
 public class Main {
     public static void main(String[] args) {
         UIFactory singleLineFactory = new SingleLineFactory();
-        System.out.println("Single Line Factory elements:\n");
+        System.out.println("Single Line Practice.Factory elements:\n");
 
         Button singleLineButton = singleLineFactory.createButton("Single Line Button");
         System.out.println(singleLineButton.display());
@@ -15,7 +15,7 @@ public class Main {
         System.out.println(singleLineCheckbox.display());
 
         UIFactory doubleLineFactory = new DoubleLineFactory();
-        System.out.println("\nDouble Line Factory elements:\n");
+        System.out.println("\nDouble Line Practice.Factory elements:\n");
 
         Button doubleLineButton = doubleLineFactory.createButton("Double Line Button");
         System.out.println(doubleLineButton.display());
